@@ -69,7 +69,7 @@ public class MainActivity extends FragmentActivity implements BluetoothRssiListe
         } else {
             // TODO: handle timing issue here
             mThresholdNear = prefs.getInt(Constants.PREFS_NEAR_THRESHOLD, 0);
-            mThresholdNear = prefs.getInt(Constants.PREFS_FAR_THRESHOLD, 0);
+            mThresholdFar = prefs.getInt(Constants.PREFS_FAR_THRESHOLD, 0);
             mBluetoothMgr = new BluetoothMgr(this);
             mBluetoothMgr.instantiate();
             mBluetoothMgr.setMac(mDeviceMac);
@@ -181,16 +181,21 @@ public class MainActivity extends FragmentActivity implements BluetoothRssiListe
         }
         progress = -4 * (progress/30);
         if (mRssiToggle.isChecked()) {
-            Log.e(TAG, "*** progress = " + progress + " ***");
+            //Log.d(TAG, "*** progress = " + progress + " ***");
             mSeekBar.setProgress(100 - (int) progress);
         }
 
-        if (progress <= Constants.THRESHOLD) {
+        if (progress <= (double)mThresholdNear/100) {
+            Log.d(TAG, "Near threshold reached!");
+            // Currently opens the Gmail app.
             Intent intent = new Intent(Intent.ACTION_DEFAULT);
             intent.setComponent(new ComponentName(Constants.LAUNCH_PACKAGE_NAME,
                     Constants.LAUNCH_PACKAGE_NAME + Constants.LAUNCH_APP_NAME));
             intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             startActivity(intent);
+        } else if (progress >= (double)mThresholdFar/100) {
+            Log.d(TAG, "Far threshold reached!");
+            // onBackPressed();
         }
 
     }

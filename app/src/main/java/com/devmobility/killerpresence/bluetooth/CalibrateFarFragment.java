@@ -21,6 +21,8 @@ import java.util.ArrayList;
 public class CalibrateFarFragment extends Fragment implements BluetoothRssiListener {
     private static final String TAG = CalibrateNearFragment.class.getSimpleName();
 
+    private static final int DURATION = 10 * 1000;
+
     private BluetoothMgr mBluetoothMgr;
 
     private CircularProgressButton circularButton1;
@@ -66,7 +68,7 @@ public class CalibrateFarFragment extends Fragment implements BluetoothRssiListe
     private void gatherData(final CircularProgressButton button) {
         mCollectData = true;
         ValueAnimator anim = ValueAnimator.ofInt(1, 100);
-        anim.setDuration(9000);
+        anim.setDuration(DURATION);
         anim.setInterpolator(new AccelerateDecelerateInterpolator());
         anim.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
             @Override

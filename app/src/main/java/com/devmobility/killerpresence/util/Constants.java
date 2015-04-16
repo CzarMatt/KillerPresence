@@ -5,8 +5,9 @@ public interface Constants {
     public static final String APP_PREFS = "cht-bluetooth-app-prefs";
     public static final String PREFS_BT_MAC_ADDRESS = "prefs-br-mac-address";
 
-    public static final String LAUNCH_PACKAGE_NAME = "com.example.test";
-    public static final String LAUNCH_APP_NAME = ".MainActivity";
+    // Currently opens the Gmail app.
+    public static final String LAUNCH_PACKAGE_NAME = "com.google.android.gm";
+    public static final String LAUNCH_APP_NAME = ".ConversationListActivityGmail";
 
     public static final long BTLE_RECONNECT_INITIAL_DELAY = 10000; // milliseconds
     public static final long BTLE_RECONNECT_REPEAT_DELAY = 5000; // milliseconds

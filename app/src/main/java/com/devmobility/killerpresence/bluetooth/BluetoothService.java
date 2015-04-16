@@ -50,7 +50,7 @@ public class BluetoothService extends Service {
             "com.devmobility.killerpresence.bluetooth.EXTRA_DATA";
 
     private static final long RSSI_SEND_INITIAL_DELAY = 5000; // milliseconds
-    private static final long RSSI_SEND_REPEAT_DELAY = 1000; // milliseconds
+    private static final long RSSI_SEND_REPEAT_DELAY = 100; // milliseconds
 
     // Implements callback methods for GATT events that the app cares about.  For example,
     // connection change and services discovered.

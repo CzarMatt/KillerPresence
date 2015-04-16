@@ -2,20 +2,6 @@
 <items version="2" >
 
     <item
-        jar="/home/mossmanm/SharpGIT/cht-samples/cht-bluetoothle/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="/home/mossmanm/SharpGIT/cht-samples/cht-bluetoothle/app/build/intermediates/pre-dexed/debug/classes-783a006ad82f6404f1f852f92e5d91212d796ec5.jar" />
-    </item>
-    <item
-        jar="/home/mossmanm/workspace/bt_presence/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="/home/mossmanm/workspace/bt_presence/app/build/intermediates/pre-dexed/debug/classes-a994a3dc5edf1dbfe370e4fadc878f5996a5ca7e.jar" />
-    </item>
-    <item
         jar="/home/mossmanm/workspace/bt_presence/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
         jumboMode="false"
         revision="21.1.2"
@@ -27,21 +13,7 @@
         jumboMode="false"
         revision="21.1.2"
         sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="/home/mossmanm/SharpGIT/cht-samples/cht-bluetoothle/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-79addd8405f0b47f183741e21a76a1255e2d5bc9.jar" />
-    </item>
-    <item
-        jar="/home/mossmanm/SharpGIT/cht-samples/cht-bluetoothle/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
-        <dex dex="/home/mossmanm/SharpGIT/cht-samples/cht-bluetoothle/app/build/intermediates/pre-dexed/debug/classes-69db04a9067b095d1d64cb4d1f97679c1c7dce95.jar" />
-    </item>
-    <item
-        jar="/home/mossmanm/SharpGIT/cht-samples/cht-bluetoothle/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="/home/mossmanm/SharpGIT/cht-samples/cht-bluetoothle/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-c63732816bfbf2562df54236549110a9e9261b52.jar" />
+        <dex dex="/home/mossmanm/workspace/bt_presence/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-79addd8405f0b47f183741e21a76a1255e2d5bc9.jar" />
     </item>
     <item
         jar="/home/mossmanm/workspace/bt_presence/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
@@ -49,6 +21,13 @@
         revision="21.1.2"
         sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
         <dex dex="/home/mossmanm/workspace/bt_presence/app/build/intermediates/pre-dexed/debug/classes-90cff2e15f78af9057492b81d3a6ae8e9c306866.jar" />
+    </item>
+    <item
+        jar="/home/mossmanm/workspace/bt_presence/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/home/mossmanm/workspace/bt_presence/app/build/intermediates/pre-dexed/debug/classes-a994a3dc5edf1dbfe370e4fadc878f5996a5ca7e.jar" />
     </item>
 
 </items>

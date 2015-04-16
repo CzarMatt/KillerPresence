@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="@string/calibration_complete"
+        android:textSize="72sp" />
+
+    <com.devmobility.killerpresence.circleprogress.CircularProgressButton
+        android:id="@+id/circularButton1"
+        android:layout_width="196dp"
+        android:layout_height="64dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="75dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:cpb_selectorComplete="@drawable/complete_selector"
+        app:cpb_selectorError="@drawable/error_selector"
+        app:cpb_selectorIdle="@drawable/idle_selector"
+        app:cpb_textComplete="@string/calibration_end"
+        app:cpb_textError="Error"
+        app:cpb_textIdle="@string/done" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-thin"
+        android:text="@string/done_to_exit"
+        android:textSize="36sp"
+        android:layout_above="@+id/circularButton1"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

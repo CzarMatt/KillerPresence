@@ -1,0 +1,42 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.devmobility.killerpresence.util.CustomAnimationView
+        android:id="@+id/color_animation_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageButton
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:visibility="gone"
+        android:id="@+id/arrow_left_thin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|center_vertical"
+        android:layout_marginStart="20dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/arrow_left"
+        android:onClick="navigatePager"
+        android:src="@drawable/arrow_left_thin" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageButton
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:id="@+id/arrow_right_thin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|center_vertical"
+        android:layout_marginEnd="20dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/arrow_right"
+        android:onClick="navigatePager"
+        android:src="@drawable/arrow_right_thin" />
+
+</FrameLayout>

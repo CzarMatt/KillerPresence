@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Labels -->
+    <string name="app_name">BT Presence</string>
+    <string name="label_device_name">Device name:</string>
+    <string name="label_device_address">Device address:</string>
+    <string name="label_device_signal">Device signal strength:</string>
+    <string name="title_devices">Proximity Activity</string>
+    <string name="label_rssi">Send RSSI Data Packet</string>
+
+    <!-- Connection status -->
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="label_state">State:</string>
+    <string name="no_data">No data</string>
+
+    <!-- Errors -->
+    <string name="error_bt_not_supported">Bluetooth not supported.</string>
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+
+    <!-- Menu items -->
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_stop">Stop</string>
+
+    <!-- UI -->
+    <string name="togglebutton">Send RSSI Packet Data</string>
+    <string name="menu_test_launch">Launch Activity</string>
+    <string name="welcome">Welcome!</string>
+    <string name="arrow_left">Navigate Left</string>
+    <string name="arrow_right">Navigate Right</string>
+    <string name="welcome_text">Begin Bluetooth Calibration</string>
+    <string name="devicelist_frag_text">Choose a device:</string>
+
+    <!-- Calibration -->
+    <string name="title_calibrate">Calibrate Blutooth</string>
+    <string name="begin_calibration">Bluetooth Calibration</string>
+    <string name="calibration_near">Stand near your television.\n(between 2 and 3 feet)</string>
+    <string name="calibration_far">Stand away from your television.\n(between 15 and 20 feet)</string>
+    <string name="calibration_tip">For best results, hold your phone steady.</string>
+    <string name="calibrating">Calibrating…</string>
+    <string name="calibration_start">Start</string>
+    <string name="calibration_error">Error</string>
+    <string name="calibration_end">Complete</string>
+    <string name="calibration_complete">Calibration Complete!</string>
+    <string name="done_to_exit">Press \'Done\' to exit.</string>
+    <string name="done">Done</string>
+    <string name="welcome_tip">(make sure your phone is in discovery mode)</string>
+
+</resources>
